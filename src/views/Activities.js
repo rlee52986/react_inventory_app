@@ -1,7 +1,11 @@
 import React from 'react';
 
+import RowContainer from '../components/RowContainer'
+
 function Activities() {
-    return(<div>Activities works</div>)
+    return(<div>
+        <RowContainer />
+        </div>)
 };
 
 export default Activities;

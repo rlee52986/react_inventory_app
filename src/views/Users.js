@@ -1,7 +1,11 @@
 import React from 'react';
 
+import RowContainer from '../components/RowContainer';
+
 function Users() {
-    return(<div>Users works</div>)
+    return(<div>
+        <RowContainer />
+        </div>)
 };
 
 export default Users;

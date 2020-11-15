@@ -1,7 +1,11 @@
 import React from 'react';
 
+import ItemList from '../components/ItemList';
+
 function Items() {
-    return(<div>Items works</div>)
+    return(<div>
+        <ItemList />
+    </div>)
 };
 
 export default Items;

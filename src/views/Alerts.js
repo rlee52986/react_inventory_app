@@ -1,7 +1,12 @@
 import React from 'react';
 
+import RowContainer from '../components/RowContainer'
+
 function Alerts() {
-    return(<div>Alerts works</div>)
+    return(
+    <div>
+        <RowContainer />
+    </div>)
 };
 
 export default Alerts;
