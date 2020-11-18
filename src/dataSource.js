@@ -19,17 +19,17 @@ export const activitiesData = [
   export const alertsData = [
     {
       "name": "Get toilet paper",
-      "date": new Date(),
+      "date": new Date().toLocaleDateString(),
       "description": "Spicy jalapeno bacon ipsum dolor amet chuck velit jerky dolore chicken proident landjaeger veniam burgdoggen."
     },
     {
       "name": "Get new hand soap",
-      "date": new Date(),
+      "date": new Date().toLocaleDateString(),
       "description": "Nisi doner incididunt, id ham chicken cow reprehenderit. Tri-tip excepteur mollit officia hamburger proident eiusmod consectetur."
     },
     {
       "name": "Restock vegetables",
-      "date": new Date(),
+      "date": new Date().toLocaleDateString(),
       "description": "Pariatur occaecat tongue chislic tail. Corned beef ad cow anim tempor ut short ribs."
     }
   ]

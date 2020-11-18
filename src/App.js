@@ -1,23 +1,17 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+
+import MainLayout from "./layouts/MainLayout";
+import Routes from './Routes';
 
 function App() {
   return (
-    <div>
-      <header>       
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <MainLayout>
+      <Routes />
+    </MainLayout>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
