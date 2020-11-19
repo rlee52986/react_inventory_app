@@ -25,7 +25,7 @@ function MainLayout({ children }) {
                 {children}
             </Container>
             {isModalOpen && 
-                <QuickView itemData={} onClose={() => setIsModalOpen(false)} />
+                <QuickView itemData={itemData} onClose={() => setIsModalOpen(false)} />
             }
         </MainContainer>
         </ModalContext.Provider>
