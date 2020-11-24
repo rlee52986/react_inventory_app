@@ -3,18 +3,22 @@ import styled from 'styled-components';
 
 function QuickView({ itemData, onClose }) {
     return (
-    <Modal>
-        <div>
-            <button onClick={onClose}>X</button>
+    <Modal>        
+        <Details>
+            <CloseButton role="button" onClick={onClose}>X</CloseButton>
             <p>Name: {itemData.name}</p>
             <p>Amount: {itemData.amount}</p>
             <p>Get By: {itemData.date}</p>
             <p>Location: {itemData.location}</p>
             <p>Description: {itemData.description}</p>
-        </div>
+        </Details>
     </Modal>
     )
 };
+
+const CloseButton = styled.button`
+float: right;
+`
 
 const Details = styled.div`
     background-color: #A39BB0;

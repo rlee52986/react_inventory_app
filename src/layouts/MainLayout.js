@@ -39,7 +39,7 @@ const MainContainer = styled.main`
     height: 90vh;
 ` 
 
-const Container = styled.div`
+const Container = styled.section`
     border-left: 2px solid #2B486A;
     display: flex;
     flex-direction: column;

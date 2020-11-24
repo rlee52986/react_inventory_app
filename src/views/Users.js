@@ -18,7 +18,7 @@ function Users() {
         <>
         {usersData.map((user) => (
             <SmallPadding key={user.name}>
-                <RowContainer rowData={user} />
+                <RowContainer rowData={user} type="user" />
             </SmallPadding>
         ))}
       </>

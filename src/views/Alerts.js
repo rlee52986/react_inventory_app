@@ -20,7 +20,7 @@ function Alerts() {
         <>
             {alertsData.map((alert) => (
                 <SmallPadding key={alert.name}>
-                    <RowContainer rowData={alert} />
+                    <RowContainer rowData={alert} type="alert" />
                 </SmallPadding>
             ))}
         </>
